@@ -1,0 +1,20 @@
+body {
+  --card-width: 150px;
+  --card-height: 240px;
+  --gap: 30px;
+  --br: 60px;
+
+  /* Font Size */
+  --fs-xl: 36px;
+  --fs-lg: 24px;
+  --fs-md: 18px;
+  --fs-rg: 12px;
+  --fs-sm: 10px;
+}
+
+@font-face {
+  font-family: "YouAndI";
+  src: url("./src/assets/fonts/fontYouandiModernTR.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
