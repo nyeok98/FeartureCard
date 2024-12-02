@@ -1,8 +1,10 @@
-body {
+:root {
+  /* Size */
   --card-width: 150px;
   --card-height: 240px;
+  --section-margin: 120px;
   --gap: 30px;
-  --br: 60px;
+  --br: 30px;
 
   /* Font Size */
   --fs-xl: 36px;
@@ -10,11 +12,6 @@ body {
   --fs-md: 18px;
   --fs-rg: 12px;
   --fs-sm: 10px;
-}
 
-@font-face {
-  font-family: "YouAndI";
-  src: url("./src/assets/fonts/fontYouandiModernTR.ttf") format("truetype");
-  font-weight: normal;
-  font-style: normal;
+  --shadow-default: rgba(0, 0, 0, 0.1) 0px 4px 12px;
 }
