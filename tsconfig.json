@@ -4,8 +4,15 @@
     "module": "esnext",
     "moduleResolution": "node",
     "jsx": "react-jsx",
+    "jsxImportSource": "@emotion/react",
     "esModuleInterop": true,
-    "strict": true
+    "strict": true,
+    "resolveJsonModule": true,
+    "paths": {
+      "@/*": ["./src/*"],
+      "~images/*": ["./src/assets/images/*"]
+    }
   },
+
   "include": ["src/**/*"]
 }
