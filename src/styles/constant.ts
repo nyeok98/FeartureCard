@@ -1,19 +1,20 @@
 export const fontSize = {
-  xl: "var(--fs-xl)",
-  lg: "var(--fs-lg)",
-  md: "var(--fs-md)",
-  sm: "var(--fs-sm)",
+  xl: "36px",
+  lg: "24px",
+  md: "18px",
+  rg: "12px",
+  xm: "10px",
 };
 
 export const size = {
-  cardWidth: "var(--card-width)",
-  cardHeight: "var(--card-height)",
-  br: "var(--br)",
+  cardWidth: "150px",
+  cardHeight: "240px",
+  br: "30px",
 };
 
 export const spacing = {
-  gap: "var(--gap)",
-  sectionMargin: "var(--section-margin)",
+  gap: "30px",
+  sectionMargin: "120px",
 };
 
-export const shawdow = { default: "var(--shadow-default)" };
+export const shawdow = { default: " rgba(0, 0, 0, 0.1) 0px 4px 12px" };

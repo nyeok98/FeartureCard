@@ -1,4 +1,4 @@
-import React, { ReactNode } from "react";
+import { ReactNode } from "react";
 import { ScrollingCards } from "./components/ScrollingCards";
 import { Title } from "./components/Title";
 
