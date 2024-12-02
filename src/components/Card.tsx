@@ -7,7 +7,7 @@ const card = css`
   min-height: ${size.cardHeight};
   box-shadow: ${shawdow.default};
   border-radius: ${size.br};
-  padding: ${spacing.gap};);
+  padding: ${spacing.gap};
 `;
 
 type CardProps = {
