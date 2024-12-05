@@ -15,6 +15,10 @@ const root = css`
   gap: ${spacing.gap};
   overflow-x: auto;
   padding: ${spacing.gap};
+
+  &::-webkit-scrollbar {
+    display: none; /* Chrome, Safari, and Opera */
+  }
 `;
 
 const lastSpace = css`
