@@ -13,6 +13,8 @@ const root = css`
   width: 100%;
   display: flex;
   gap: ${spacing.gap};
+  overflow-x: auto;
+  padding: ${spacing.gap};
 `;
 
 const lastSpace = css`
