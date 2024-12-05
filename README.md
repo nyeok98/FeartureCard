@@ -20,6 +20,8 @@
 
 - (24.12.05) [자주 잊는 것] `overflow: scroll` 옵션은 자신과 바로 윗 부모에서 허용해줘야함 + `white-space` 속성 확인
 
+<br/>
+
 ### Example
 
 ![example3](https://github.com/user-attachments/assets/02043be7-6c8f-4d36-a9c9-91415a7ace65)
