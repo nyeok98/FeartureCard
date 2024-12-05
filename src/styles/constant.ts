@@ -1,3 +1,20 @@
+import { css } from "@emotion/react";
+
+export const globalStyles = css`
+  @font-face {
+    font-family: "YouAndI";
+    src: url("./src/assets/fonts/fontYouandiModernTR.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+`;
+
 export const fontSize = {
   xl: "36px",
   lg: "24px",

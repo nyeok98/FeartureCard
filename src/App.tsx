@@ -1,6 +1,10 @@
 import { ReactNode } from "react";
+// Components
 import { CardSlider } from "./components/CardSlider";
+// Styles
+import { Global } from "@emotion/react";
 import { appStyles } from "./styles/App.styles";
+import { globalStyles } from "./styles/constant";
 
 const MockupBox = ({ children }: { children: ReactNode }) => {
   return (
@@ -14,9 +18,12 @@ const MockupBox = ({ children }: { children: ReactNode }) => {
 
 function App() {
   return (
-    <MockupBox>
-      <CardSlider />
-    </MockupBox>
+    <>
+      <Global styles={globalStyles} />
+      <MockupBox>
+        <CardSlider />
+      </MockupBox>
+    </>
   );
 }
 
