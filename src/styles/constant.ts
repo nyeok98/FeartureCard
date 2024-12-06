@@ -8,7 +8,7 @@ export const globalStyles = css`
     font-style: normal;
   }
 
-  body {
+  * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -24,8 +24,8 @@ export const fontSize = {
 };
 
 export const size = {
-  cardWidth: "150px",
-  cardHeight: "240px",
+  cardWidth: "200px",
+  cardHeight: "320px",
   br: "30px",
 };
 

@@ -5,8 +5,8 @@ export const root = css({
   width: "100%",
   display: "flex",
   gap: spacing.gap,
+  paddingLeft: spacing.gap,
   overflowX: "auto",
-  padding: "16px",
   "&::-webkit-scrollbar": {
     display: "none",
   },
@@ -20,6 +20,7 @@ export const title = css({
   fontSize: fontSize.lg,
   position: "sticky",
   left: 0,
+  padding: `0 ${spacing.gap}`,
 });
 
 export const lastCard = css({

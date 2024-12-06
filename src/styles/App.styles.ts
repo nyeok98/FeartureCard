@@ -22,7 +22,6 @@ export const appStyles = {
   container: css({
     width: "100%",
     height: "100%",
-    padding: `0 ${spacing.gap}`,
     display: "flex",
     flexDirection: "column",
     justifyContent: "center",
