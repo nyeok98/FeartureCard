@@ -7,7 +7,7 @@
 
 ### Tasks
 
-- [WIP] Mocking
+- [ ] [WIP] Mocking
   - [x] Vite로 Boiler Plate 만들기
   - [x] Emotion으로 스타일 구성(추후 라이브러리화 할때의 변수 등을 활용하기 위해)
   - [ ] Lottie로 애니메이션 구현
